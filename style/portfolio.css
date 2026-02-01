@@ -63,7 +63,7 @@ section .banner {
     max-width: 1600px;
     height: 674px;
     margin-top: 0;
-    background-image: url(./assets/hero-bg.png);
+    background-image: url("../assets/hero-bg.png");
     background-size: cover;
 
 }
@@ -113,9 +113,16 @@ section h1 {
     /* padding: 16px 295px; */
 }
 
-section h1 span {
+.banner-container h2{
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    margin-bottom: 16px;
     color: #30B868;
+
 }
+    
+
 
 .banner-container p {
     font-size: 18px;
